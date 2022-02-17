@@ -1,0 +1,107 @@
+#text-field {
+  color: #0c0e16;
+  font-weight: 700;
+  font-size: 1rem;
+  border-color: green;
+}
+
+.text-field {
+  color: #0c0e16;
+  font-weight: 700;
+  font-size: 1rem;
+  border-color: green;
+}
+
+/* p {
+  margin: 0;
+  padding: 0;
+  z-index: 999;
+} */
+
+.pending {
+  background-color: rgba(255, 145, 0, 0.15);
+  color: #ff8f00;
+}
+
+.paid {
+  color: #33d69f;
+  background-color: rgba(51, 214, 159, 0.15);
+}
+
+.draft {
+  color: #373b53;
+  background-color: rgba(55, 59, 83, 0.15);
+}
+
+#hide {
+  color: white;
+}
+
+#form-required {
+  color: #ec5757;
+  margin-left: 4px;
+}
+
+#hash-sign {
+  color: #888eb0;
+}
+
+#user-photo {
+  border-radius: 999px;
+  margin-left: 20px;
+}
+
+#hr {
+  border: 01px solid #7e88c3;
+}
+
+#moon-logo {
+  margin-left: 30px;
+}
+
+.grid-id {
+  grid-area: id;
+}
+
+.grid-payment-due {
+  grid-area: payment-due;
+}
+.grid-name {
+  grid-area: name;
+}
+
+.grid-total {
+  grid-area: total;
+  align-self: end;
+  /* justify-self: end; */
+}
+
+.grid-status {
+  grid-area: status;
+  justify-self: end;
+  align-self: end;
+  justify-self: end;
+}
+
+.grid-container {
+  grid-template-columns: 1fr "100px";
+  grid-template-rows: "25px" 1fr 1fr;
+  grid-template-areas:
+    "id name"
+    "payment-due name"
+    "total status";
+  /* border: "1px solid black"; */
+
+  /* grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr "16px" 1fr;
+    grid-template-areas:
+      "id name"
+      "payment-due ."
+      "total status"; */
+}
+
+@media screen and (max-width: 1025px) {
+  ::-webkit-scrollbar {
+    display: none;
+  }
+}
