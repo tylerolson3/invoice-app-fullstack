@@ -34,7 +34,8 @@ This is was my first full-stack app that I deployed myself (using heroku and net
 - Convert Date Object to local time zone to avoid to avoid OB1 errors
 - How to convert data once received from the API. For example, I received a date as '2021-10-07' but had to display it as '7 Oct 2021'
 - Dynamically render a component based on other inputs.  For example, the 'Total Price' display on the form would change whenever the user entered a different input for item price OR item quantity.
--
+- Different display text based on screen size.  For example, the 'New Invoice' button would simplay say 'New' on mobile screens.
+- Dynamically render button based on status
 - Generate a random alpha-numeric ID each time a new form was created
 - horizontal scroll on mobile
 
@@ -44,8 +45,9 @@ No matter what your experience level, being an engineer means continuously learn
 ## Optimizations
 *(optional)*
 
-How to immeditaley display user edits with refreshing the page
-- Inititally, 
+How to immeditaley display user edits on the form with refreshing the page
+- Inititally, when the user edits the input form, 
+![edit_change_example](https://user-images.githubusercontent.com/67395239/155897144-dd5c9566-80a8-412a-9654-f41f2a451663.gif)
 
 
 You don't have to include this section but interviewers *love* that you can not only deliver a final product that looks great but also functions efficiently. Did you write something then refactor it later and the result was 5x faster than the original implementation? Did you cache your assets? Things that you write in this section are **GREAT** to bring up in interviews and you can use this section as reference when studying for technical interviews!
