@@ -35,7 +35,7 @@ This is was my first full-stack app that I deployed myself (using heroku and net
 - How to convert data once received from the API. For example, I received a date as '2021-10-07' but had to display it as '7 Oct 2021'
 - Dynamically render a component based on other inputs.  For example, the 'Total Price' display on the form would change whenever the user entered a different input for item price OR item quantity.
 - Different display text based on screen size.  For example, the 'New Invoice' button would simplay say 'New' on mobile screens.
-- Dynamically render button based on status
+- Dynamically render buttons based on status.  For example, the 'Delete' and 'Edit' buttons would not be display on invoices where status = 'paid'
 - Generate a random alpha-numeric ID each time a new form was created
 - horizontal scroll on mobile
 
