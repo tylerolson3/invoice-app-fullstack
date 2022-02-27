@@ -28,7 +28,7 @@ https://invoice-tyler.netlify.app/
 This is was my first full-stack app that I deployed myself (using heroku and netlify), and to say a learned A LOT would be an understatement.  From getting comfortable with errors messages that took DAYS to resolve, to simply getting better at googling for answers when stuck, I'm much more confident in my coding abilities having completed this project.  Also, I repeatedly saw the value of simply taking a break can sometimes have when your stuck. 
 
 
-## Lessons Learned:
+## Skills Used:
 
 - My date-picker set the value as a Date Object, and then I had to convert it to 'YYYY-MM-DD' format before saving the form to the DB.
 - Convert Date Object displayed on date-picker component to local time zone to avoid OB1 errors
@@ -42,8 +42,7 @@ This is was my first full-stack app that I deployed myself (using heroku and net
 No matter what your experience level, being an engineer means continuously learning. Every time you build something you always have those *whoa this is awesome* or *fuck yeah I did it!* moments. This is where you should share those moments! Recruiters and interviewers love to see that you're self-aware and passionate about growing.
 
 
-## Optimizations
-*(optional)*
+## Lessons Learned
 
 The importance of initially selecting the correct React Library in order to save yourself time down the road
 -  This project required form-validation which I had zero previous experience using.  I initially chose to use formik over react-hook-form since it had more weekly downloads on npm.  I read the docs and started implementing formik into my project, only to then realize formik wasn't going to work for me (formik maintains state on the DOM rather than with React.)  If I had just read the docs a little more thoroughly before deciding on a form-validation library and not over-emphasizing the importance of npm weekly download count, I probably would have decided to use react-hook-form from the onset.  And thus, save myself A LOT of time.
