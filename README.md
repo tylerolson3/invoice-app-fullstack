@@ -33,13 +33,13 @@ This is was my first full-stack app that I deployed myself (using heroku and net
 
 ## Skills Used:
 
-- Implemented a git branching workflow of using feature branches to update the main the branch of the project after deployment of the app
+- Implemented a git branching workflow of using feature branches to merge updates into the main branch of the deployed app
 - Convert Date Object from date-picker component to local time zone to avoid OB1 errors, & save the value in 'YYYY-MM-DD' format
 - How to convert data once received from the API. For example, I received a date as '2021-10-07' but had to display it as '7 Oct 2021'
 - Dynamically render a component based on other inputs.  For example, the 'Total Price' display on the form would change whenever the user entered a different input for item price OR item quantity.
-- Different display text based on screen size.  For example, the 'New Invoice' button would simplay say 'New' on mobile screens.
-- Dynamically render buttons based on status.  For example, the 'Delete' and 'Edit' buttons would not display on invoices where status = 'paid'
+- Different display text based on screen size.  For example, the 'New Invoice' button would simply say 'New' on mobile screens.
 - Generate a random alpha-numeric ID each time a new form was created
+- Dynamically render buttons based on status.  For example, the 'Delete' and 'Edit' buttons would not display on invoices where status = 'paid'
 - Removing horizontal scroll on phone/tablet display in order to improve the UX
 
 No matter what your experience level, being an engineer means continuously learning. Every time you build something you always have those *whoa this is awesome* or *fuck yeah I did it!* moments. This is where you should share those moments! Recruiters and interviewers love to see that you're self-aware and passionate about growing.
