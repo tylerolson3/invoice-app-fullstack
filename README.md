@@ -12,7 +12,10 @@ The Challenge:
 
 https://invoice-tyler.netlify.app/
 
-![goodGifInvoiceApp](https://user-images.githubusercontent.com/67395239/155815402-46a14480-cf80-43b9-b6e2-8829a4509e40.gif)
+![updated-invoices-gif](https://user-images.githubusercontent.com/67395239/156457538-df0ef74f-23d7-4eca-b83e-a420a5719fcc.gif)
+
+
+<!-- ![goodGifInvoiceApp](https://user-images.githubusercontent.com/67395239/155815402-46a14480-cf80-43b9-b6e2-8829a4509e40.gif) -->
 
 
 
@@ -30,8 +33,8 @@ This is was my first full-stack app that I deployed myself (using heroku and net
 
 ## Skills Used:
 
-- My date-picker set the value as a Date Object, and then I had to convert it to 'YYYY-MM-DD' format before saving the form to the DB.
-- Convert Date Object displayed on date-picker component to local time zone to avoid OB1 errors
+- Implemented a git branching workflow of using feature branches to update the main the branch of the project after deployment of the app
+- Convert Date Object from date-picker component to local time zone to avoid OB1 errors, & save the value in 'YYYY-MM-DD' format
 - How to convert data once received from the API. For example, I received a date as '2021-10-07' but had to display it as '7 Oct 2021'
 - Dynamically render a component based on other inputs.  For example, the 'Total Price' display on the form would change whenever the user entered a different input for item price OR item quantity.
 - Different display text based on screen size.  For example, the 'New Invoice' button would simplay say 'New' on mobile screens.
