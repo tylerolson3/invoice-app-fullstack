@@ -27,10 +27,7 @@ https://invoice-tyler.netlify.app/
 - Material UI
 - PostgreSQL
 - NodeJS
-- 
-
-This is was my first full-stack app that I deployed myself (using heroku and netlify), and to say a learned A LOT would be an understatement.  From getting comfortable with errors messages that took DAYS to resolve, to simply getting better at googling for answers when stuck, I'm much more confident in my coding abilities having completed this project. 
-
+- deployed app using Heroku and Netlify
 
 ## Skills Used:
 
@@ -43,20 +40,14 @@ This is was my first full-stack app that I deployed myself (using heroku and net
 - Dynamically render buttons based on status.  For example, the 'Delete' and 'Edit' buttons would not display on invoices where status = 'paid'
 - Removing horizontal scroll on phone/tablet display in order to improve the UX
 
-No matter what your experience level, being an engineer means continuously learning. Every time you build something you always have those *whoa this is awesome* or *fuck yeah I did it!* moments. This is where you should share those moments! Recruiters and interviewers love to see that you're self-aware and passionate about growing.
-
-
 ## Lessons Learned
 
-###The importance of initially selecting the correct NPM package in order to save yourself time down the road
+### The importance of initially selecting the correct NPM package in order to save yourself time down the road
 -  This project required form-validation which I had zero previous experience using.  I initially chose to use formik over react-hook-form since it had more weekly downloads on npm.  I read the docs and started implementing formik into my project, only to then realize formik wasn't going to work for me (formik maintains state on the DOM rather than with React.)  If I had just read the docs a little more thoroughly before deciding on a form-validation library and not over-emphasizing the importance of npm weekly download count, I probably would have decided to use react-hook-form from the onset.  And thus, save myself A LOT of time.
 
-###How to host a full-stack application
+### How to host a full-stack application
+- Deployed backend to Heroku (using Heroku Postgres database service) and frontend to Netlify
 
-###How to immeditaley display user edits on the form with refreshing the page
+### How to immeditaley display user edits on the form with refreshing the page
 - Inititally, when the user edits the input form, it would only re-render the display form and NOT the pre-loaded inputs on the edit form.  After some trial and error to avoid infinite loop re-render errors, I was able to use the correct useEffect hook.
-![edit_change_example](https://user-images.githubusercontent.com/67395239/155897144-dd5c9566-80a8-412a-9654-f41f2a451663.gif)
 
-
-
-You don't have to include this section but interviewers *love* that you can not only deliver a final product that looks great but also functions efficiently. Did you write something then refactor it later and the result was 5x faster than the original implementation? Did you cache your assets? Things that you write in this section are **GREAT** to bring up in interviews and you can use this section as reference when studying for technical interviews!
