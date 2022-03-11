@@ -1,6 +1,5 @@
 
 # About the Project
-This project was a solo challenge from [Frontend Mentor](https://www.frontendmentor.io/challenges/invoice-app-i7KaLTQjl) where the objective was to use the
 
 The Challenge:
 
@@ -45,8 +44,8 @@ https://invoice-tyler.netlify.app/
 ### The importance of initially selecting the correct NPM package in order to save yourself time down the road
 -  This project required form-validation which I had zero previous experience using.  I initially chose to use formik over react-hook-form since it had more weekly downloads on npm.  I read the docs and started implementing formik into my project, only to then realize formik wasn't going to work for me (formik maintains state on the DOM rather than with React.)  If I had just read the docs a little more thoroughly before deciding on a form-validation library and not over-emphasizing the importance of npm weekly download count, I probably would have decided to use react-hook-form from the onset.  And thus, save myself A LOT of time.
 
-### How to host a full-stack application
-- Deployed backend to Heroku (using Heroku Postgres database service) and frontend to Netlify
+### Make it work, then make it good
+- For awhile on projects, I was caught up on making my first iteration the best.  I realize that simply isn't how coding works.  Allowing myself permission to make mistakes and have sub-optimal code while I get everything working has allowed me to code more efficiently knowing I will go back and make the code better future iterations
 
 ### How to immeditaley display user edits on the form with refreshing the page
 - Inititally, when the user edits the input form, it would only re-render the display form and NOT the pre-loaded inputs on the edit form.  After some trial and error to avoid infinite loop re-render errors, I was able to use the correct useEffect hook.
