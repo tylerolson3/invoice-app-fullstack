@@ -3,7 +3,7 @@
 
 The Challenge:
 
-- Build out this invoicing application and get it looking as close to the design as possible, including responsive-design elements
+- Build out this invoicing application and get it looking as close to the Figma design as possible, including responsive-design elements
 - See hover states for all interactive elements on the page
 - Receive form validations when trying to create/edit an invoice
 - Save draft invoices, and mark pending invoices as paid, & filter by status (draft/pending/paid)
@@ -26,7 +26,7 @@ https://invoice-tyler.netlify.app/
 - Material UI
 - PostgreSQL
 - NodeJS
-- deployed app using Heroku and Netlify
+- deployed backend with Heroku
 
 ## Skills Used:
 
@@ -42,7 +42,7 @@ https://invoice-tyler.netlify.app/
 ## Lessons Learned
 
 ### Make it work, then make it good
-- For awhile on projects, I was caught up on making my first iteration the best.  I realize that simply isn't how coding works.  Allowing myself permission to make mistakes and have sub-optimal code while I get everything working has allowed me to code more efficiently knowing I will go back and make the code better future iterations
+- For awhile on projects, I was caught up on making my first iteration the best.  I realize that simply isn't how coding works.  Allowing myself permission to make mistakes and have sub-optimal code while I get everything working has allowed me to code more efficiently knowing I will go back and make the code better on future iterations.
 
 ### The importance of initially selecting the correct NPM package in order to save yourself time down the road
 -  This project required form-validation which I had zero previous experience using.  I initially chose to use formik over react-hook-form since it had more weekly downloads on npm.  I read the docs and started implementing formik into my project, only to then realize formik wasn't going to work for me (formik maintains state on the DOM rather than with React.)  If I had just read the docs a little more thoroughly before deciding on a form-validation library and not over-emphasizing the importance of npm weekly download count, I probably would have decided to use react-hook-form from the onset.  And thus, save myself A LOT of time.
