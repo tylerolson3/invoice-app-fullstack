@@ -38,6 +38,7 @@ https://invoice-tyler.netlify.app/
 - Generate a random alpha-numeric ID each time a new form was created
 - Dynamically render buttons based on status.  For example, the 'Delete' and 'Edit' buttons would not display on invoices where status = 'paid'
 - Removing horizontal scroll on phone/tablet display in order to improve the UX
+- Using different naming-convention styles (snake-case vs camelCase) when data goes between frontend and backend.
 
 ## Lessons Learned
 
