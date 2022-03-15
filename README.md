@@ -26,7 +26,7 @@ https://invoice-tyler.netlify.app/
 - Material UI
 - PostgreSQL
 - NodeJS
-- deployed backend with Heroku
+- backend deployed on Heroku
 
 ## Skills Used:
 
