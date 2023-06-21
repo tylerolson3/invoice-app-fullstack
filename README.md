@@ -9,8 +9,6 @@ The Challenge:
 - Save draft invoices, and mark pending invoices as paid, & filter by status (draft/pending/paid)
 - Create a full-stack application with CRUD functionality
 
-https://invoice-now.netlify.app/
-
 ![updated-invoices-gif](https://user-images.githubusercontent.com/67395239/156457538-df0ef74f-23d7-4eca-b83e-a420a5719fcc.gif)
 
 
